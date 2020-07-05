@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script> 
+        <title>Wie viel muss ich zahlen?</title>
+    </head>
+    <body>
+        <div id="content">
+            <div id="wrapper">
+                <h2 id="heading">Wie viel muss ich zahlen?</h2>
+                <form>
+                    <p>So viel war erlaubt:</p>
+                    <input type="text" name="speed_traffic_sign" >
+                    <p>So schnell bin ich gefahren:</p>
+                    <input type="text" name="speed_car" >
+                    <p>Innerorts oder außerhalb: </p>
+                    <fieldset>
+                        <label for="inner">Innerorts</label>
+                        <input type="radio" id="inner" name="where" checked=true >
+                        <label for="outer">Außerorts</label>
+                        <input type="radio" id="outer" name="where">
+                    </fieldset>
+                    <button type="button" id="calc" >Senden</button>
+                </form>
+                <p id="result"></p>
+            </div>
+        </div>
+
+    </body>
+</html>

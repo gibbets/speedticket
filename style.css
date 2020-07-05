@@ -1,0 +1,16 @@
+#wrapper {
+    width: 50%;
+    margin: auto;
+    background-color: green;
+}
+
+#heading {
+    text-align: center;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: black solid 2px;
+    background-color: grey;
+    padding: 12px 20px;
+}
